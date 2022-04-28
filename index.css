@@ -1,9 +1,10 @@
-.parent {
-  width: 100px;
+.utube {
+  position: relative;
+  padding-top: 56.25%;
 }
-.child {
-  width: 0;
-  height: 0;
-  padding-left: 25%; /* 25px */
-  padding-top: 50%; /* 50px */
+.utube__iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
 }
