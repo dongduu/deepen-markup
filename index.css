@@ -1,6 +1,9 @@
-picture,
-img {
-  display: block;
-  max-width: 100%;
-  border: 1px;
+.parent {
+  width: 100px;
+}
+.child {
+  width: 0;
+  height: 0;
+  padding-left: 25%; /* 25px */
+  padding-top: 50%; /* 50px */
 }
